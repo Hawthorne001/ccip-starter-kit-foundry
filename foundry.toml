@@ -7,7 +7,8 @@ remappings = [
     '@chainlink/contracts-ccip/=node_modules/@chainlink/contracts-ccip',
     '@chainlink/local=node_modules/@chainlink/local',
 ]
-solc = '0.8.19'
+solc = '0.8.24'
+evm_version = 'paris'
 
 [rpc_endpoints]
 ethereumSepolia = "${ETHEREUM_SEPOLIA_RPC_URL}"
@@ -19,5 +20,15 @@ bnbChainTestnet = "${BNB_CHAIN_TESTNET_RPC_URL}"
 baseSepolia = "${BASE_SEPOLIA_RPC_URL}"
 metisSepolia = "${METIS_SEPOLIA_RPC_URL}"
 zksyncSepolia = "${ZKSYNC_SEPOLIA_RPC_URL}"
+scrollSepolia = "${SCROLL_SEPOLIA_RPC_URL}"
+zircuitSepolia = "${ZIRCUIT_SEPOLIA_RPC_URL}"
+xlayerSepolia = "${XLAYER_SEPOLIA_RPC_URL}"
+polygonZkevmSepolia = "${POLYGON_ZKEVM_SEPOLIA_RPC_URL}"
+polkadotAstarShibuya = "${POLKADOT_ASTAR_SHIBUYA_RPC_URL}"
+mantleSepolia = "${MANTLE_SEPOLIA_RPC_URL}"
+soneiumMinatoSepolia = "${SONEIUM_MINATO_SEPOLIA_RPC_URL}"
+bsquaredTestnet = "${BSQUARED_TESTNET_RPC_URL}"
+bobSepolia = "${BOB_SEPOLIA_RPC_URL}"
+worldchainSepolia = "${WORLDCHAIN_SEPOLIA_RPC_URL}"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
